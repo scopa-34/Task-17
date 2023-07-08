@@ -63,8 +63,8 @@ function itemHandler(player, item) {
   if (currentScore >= winningScore) {
       createBadge();
   }
-  if (currentScore <= 0) {
-    console.log("YOU LOSE");
+  if (currentScore < 0) {
+   alert("YOU LOSE");
 }
 }
 
